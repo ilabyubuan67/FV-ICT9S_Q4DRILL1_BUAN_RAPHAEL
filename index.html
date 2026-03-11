@@ -15,13 +15,13 @@
             var ec = document.getElementById("Electricity").value;
 
             if(isNaN(ec) || ec < 0 ){
-               alert("Lifeline Consumer : Discounted Electricity Ratios")
+               alert("Invalid")
             }
  else if(ec < 100){
     alert("Lifeline Consumer : Discounted Electricity Ratios");
  }
  
- else if(ec < 200){
+ else if(ec < 201){
     alert("Low Consumption : Normal Resident Rate");
  }
   else if(ec < 300){
