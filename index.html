@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q4PRACTICE1</title>
+</head>
+<body>
+    <!--no user input-->
+    <h1>Electricity Consumption Classifier</h1>
+    <input type="text" id="Electricity" class="form-control" placeholder="kilowatt per hour">
+    <button class="btn btn-info" onclick="checkAge()">See Consumption</button>
+    <script>
+        function checkAge(){
+            var age = document.getElementById("Age").value;
+
+            if(isNaN(ec) || ec < 0 ){
+               alert("Lifeline Consumer : Discounted Electricity Ratios")
+            }
+ else if(ec < 100){
+    alert("Lifeline Consumer : Discounted Electricity Ratios");
+ }
+ 
+ else if(ec < 200){
+    alert("Low Consumption : Normal Resident Rate");
+ }
+  else if(ec < 300){
+    alert("Average Consumption : Typical Electricity Rate");
+ }
+ else if(ec < 500){
+    alert("Low Consumption : Higher Electricity Users");
+ }
+ else {
+    alert("Very High Consumption : Heavy Electricity Users"); 
+ }
+        }
+    </script>
+</body>
+</html>
