@@ -5,7 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q4PRACTICE1</title>
 </head>
+<style>
+    body{
+        background-color: blanchedalmond;
+        text-align: center;
+    }
+    .content{
+        background-color: rgb(205, 255, 210);
+    }
+</style>
 <body>
+    <div class="content">
     <!--no user input-->
     <h1>Electricity Consumption Classifier</h1>
     <input type="text" id="Electricity" class="form-control" placeholder="kilowatt per hour">
@@ -24,10 +34,10 @@
  else if(ec < 201){
     alert("Low Consumption : Normal Resident Rate");
  }
-  else if(ec < 300){
+  else if(ec < 301){
     alert("Average Consumption : Typical Electricity Rate");
  }
- else if(ec < 500){
+ else if(ec < 501){
     alert("High Consumption : Higher Electricity Users");
  }
  else {
@@ -35,5 +45,6 @@
  }
         }
     </script>
+    </div>
 </body>
 </html>
